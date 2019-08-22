@@ -11,10 +11,7 @@ V is the centroids' matrix.
 
 ______________________________________________________________________________________________
 
-Tip:  
-+
-+
-I used the following lines of code to determine which cluster each single datapoint belongs to.  
+The following lines of code determine which cluster each single datapoint belongs to.  
 
 ```
 fcm_labels = ones(size(X,1),1);  
