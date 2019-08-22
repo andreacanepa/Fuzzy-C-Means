@@ -12,6 +12,8 @@ V is the centroids' matrix.
 ______________________________________________________________________________________________
 
 Tip:  
++
++
 I used the following lines of code to determine which cluster each single datapoint belongs to.  
 
 ```
