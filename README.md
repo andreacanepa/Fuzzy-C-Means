@@ -1,12 +1,13 @@
-# fuzzycmeans
+# Fuzzy C-means
+
 Fuzzy c-means clustering algorthm implementation using Matlab.
 
-X is the dataset
-K is the number of clusters
-m is the fuzzyfication parameter (currently "2" in order to improve performance)
-N_MAX is the maximum number of iterations
-threshold is the value used in order to check the convergence ("0.01" in my case)
-V is the centroids' matrix.
+X is the dataset  
+K is the number of clusters  
+m is the fuzzyfication parameter (currently "2" in order to improve performance)  
+N_MAX is the maximum number of iterations  
+threshold is the value used in order to check the convergence ("0.01" in my case)  
+V is the centroids' matrix.  
 
 ______________________________________________________________________________________________
 
