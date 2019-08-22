@@ -14,12 +14,12 @@ ________________________________________________________________________________
 Tip:  
 I used the following lines of code to determine which cluster each single datapoint belongs to.  
 
-'''
+```
 fcm_labels = ones(size(X,1),1);  
 for i = 1:size(X,1)  
     aux = fcm_U(i,:);  
     [elem,index] = max(aux);  
     fcm_labels(i,1) = index;   
 end 
-'''
+```
 
